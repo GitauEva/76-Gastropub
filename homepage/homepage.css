@@ -68,11 +68,12 @@ body {
 
 .section-two div {
   width: 100vw;
-  background-color: grey;
+  background-color: rgb(44, 44, 44);
   height: 35vh;
   position: relative;
   top: -37px;
   left: -8px;
+  color: white;
 }
 
 .section-two h2 {
@@ -93,4 +94,95 @@ body {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1px;
+}
+
+.section-three {
+  width: 100%;
+  height: 97vh;
+  background-color: rgb(44, 44, 44);
+  position: relative;
+  top: -25px;
+  left: -10px;
+}
+
+.section-three h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 100;
+}
+
+.menu-div {
+  display: flex;
+}
+
+.menu-div img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.menu-div h4 {
+  text-align: center;
+  position: relative;
+  bottom: 330px;
+  color: white;
+  font-size: 30px;
+}
+
+.menu-div h4:hover {
+  color: black;
+  background-color: wheat;
+  cursor: pointer;
+}
+
+.wine h4 {
+  bottom: 345px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-four {
+  width: 100%;
+  height: 97vh;
+  background-color: rgb(44, 44, 44);
+  position: relative;
+  top: -25px;
+  left: -10px;
+}
+
+.section-four img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.section-four h3 {
+  position: absolute;
+  color: white;
+  top: 35vh;
+  left: 40px;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.div-four {
+  background-color: rgb(44, 44, 44);
+  width: 40%;
+  height: 70vh;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  padding: 20px 30px 20px 40px;
+  line-height: 22px;
+  color: white;
+}
+
+.div-four h4 {
+  margin-bottom: 40px;
 }
