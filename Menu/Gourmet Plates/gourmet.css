@@ -32,9 +32,9 @@ header p {
   text-align: center;
   padding: 1px 100px;
   font-size: 15px;
-  background-color: rgba(253, 253, 253, 0.377);
   font-style: italic;
   line-height: 20px;
+  z-index: 1;
 }
 .main-section {
   position: absolute;
