@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  /* background-color: #141414; */
+/* body {
+  position: absolute;
+} */
+a {
+  text-decoration: none;
 }
-/* Header Styling */
 header {
   position: absolute;
   top: 0;
@@ -25,6 +26,7 @@ header h1 {
   text-align: center;
   font-size: 100px;
   margin-bottom: 0;
+  color: white;
 }
 header p {
   position: relative;
@@ -56,26 +58,26 @@ h4:hover {
   cursor: pointer;
   border-radius: 5px;
 }
-.back-home {
+footer {
+  position: relative;
+  padding-bottom: 10px;
+}
+footer button {
+  position: relative;
+  top: 1950px;
   display: block;
   margin: auto;
   left: 0;
   right: 0;
+  padding: 20px 50px;
   border: none;
-  padding: 21px 100px;
   background-color: salmon;
   border-radius: 30px;
+  font-size: 20px;
   cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.back-home:hover {
-  background-color: white;
-  box-shadow: 0 0 10px salmon;
-}
-footer img {
-  position: absolute;
-  height: 35vh;
-  width: 100%;
-  object-fit: cover;
-  top: 2000px;
-  left: 0;
+footer button:hover {
+  background-color: black;
+  color: white;
 }
