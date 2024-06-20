@@ -70,6 +70,7 @@ h4:hover {
 .back-home:hover {
   background-color: white;
   box-shadow: 0 0 10px salmon;
+  transition: background-color 0.8s ease-in-out;
 }
 footer img {
   position: absolute;
