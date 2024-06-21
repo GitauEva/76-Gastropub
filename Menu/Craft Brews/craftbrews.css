@@ -3,6 +3,7 @@
 }
 body {
   position: absolute;
+  overflow-x: hidden;
 }
 header img {
   position: relative;

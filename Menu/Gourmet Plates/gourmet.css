@@ -3,7 +3,7 @@
 } */
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  /* background-color: #141414; */
+  overflow-x: hidden;
 }
 /* Header Styling */
 header {
