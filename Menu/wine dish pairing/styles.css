@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
 }
-/* body {
-  position: absolute;
-} */
+body {
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
 }
@@ -58,26 +58,36 @@ h4:hover {
   cursor: pointer;
   border-radius: 5px;
 }
-footer {
-  position: relative;
-  padding-bottom: 10px;
-}
-footer button {
-  position: relative;
-  top: 1950px;
+#back-home {
   display: block;
   margin: auto;
   left: 0;
   right: 0;
-  padding: 20px 50px;
   border: none;
+  padding: 21px 100px;
   background-color: salmon;
   border-radius: 30px;
-  font-size: 20px;
   cursor: pointer;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-footer button:hover {
-  background-color: black;
-  color: white;
+#back-home:hover {
+  background-color: white;
+  box-shadow: 0 0 10px salmon;
+  transition: background-color 0.8s ease-in-out;
+}
+footer {
+  position: relative;
+  top: 1960px;
+}
+.footer-marquee {
+  text-align: center;
+}
+
+footer img {
+  position: relative;
+  height: 70vh;
+  width: 101%;
+  bottom: -10px;
+  left: -8px;
+  object-fit: cover;
+  object-position: 30% 80%;
 }
