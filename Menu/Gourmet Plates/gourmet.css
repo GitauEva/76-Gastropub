@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   /* background-color: #141414; */
@@ -56,7 +56,7 @@ h4:hover {
   cursor: pointer;
   border-radius: 5px;
 }
-.back-home {
+#back-home {
   display: block;
   margin: auto;
   left: 0;
@@ -67,7 +67,7 @@ h4:hover {
   border-radius: 30px;
   cursor: pointer;
 }
-.back-home:hover {
+#back-home:hover {
   background-color: white;
   box-shadow: 0 0 10px salmon;
   transition: background-color 0.8s ease-in-out;

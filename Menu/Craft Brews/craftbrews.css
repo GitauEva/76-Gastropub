@@ -66,3 +66,20 @@ h4:hover {
   box-shadow: 0 0 10px salmon;
   transition: background-color 0.8s ease-in-out;
 }
+footer {
+  position: relative;
+  top: 1400px;
+}
+.footer-marquee {
+  text-align: center;
+}
+
+footer img {
+  position: relative;
+  height: 70vh;
+  width: 110%;
+  bottom: -10px;
+  left: -8px;
+  object-fit: cover;
+  object-position: 30% 80%;
+}

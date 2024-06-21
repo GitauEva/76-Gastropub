@@ -1,9 +1,7 @@
-//get the button
+const backHomeBtn = document.getElementById("back-home");
 
-const backHomeBtn = document.querySelector("button");
-
-function alert() {
-  prompt("Go back home");
+function navigateHome() {
+  window.location.href = "../../homepage/homepage.html";
 }
 
-backHomeBtn.addEventListener("click", alert);
+backHomeBtn.addEventListener("click", navigateHome);
