@@ -57,13 +57,13 @@ h4:hover {
   right: 0;
   border: none;
   padding: 21px 100px;
-  background-color: salmon;
+  background-color: burlywood;
   border-radius: 30px;
   cursor: pointer;
 }
 #back-home:hover {
   background-color: white;
-  box-shadow: 0 0 10px salmon;
+  box-shadow: 0 0 10px burlywood;
   transition: background-color 0.8s ease-in-out;
 }
 footer {
