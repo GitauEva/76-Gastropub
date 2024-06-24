@@ -1,7 +1,13 @@
+body {
+  background: url(http://192.168.1.6:5500/images/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .main-section {
-  max-width: 85%;
-  background: linear-gradient(salmon, pink);
-  padding: 50px;
+  max-width: 50%;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.479);
+  padding: 30px 50px;
   margin: 0 auto;
   border-radius: 30px;
   box-shadow: 0 0 30px;
@@ -14,6 +20,12 @@ h3 {
   line-height: 15px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+.top-section h2 {
+  font-size: 30px;
+}
+.top-section h3 {
+  font-size: 20px;
+}
 legend {
   font-weight: bold;
   font-size: 20px;
@@ -24,6 +36,29 @@ fieldset {
 }
 .reservation-section {
   padding-bottom: 20px;
+}
+.reservation-section div {
+  padding-bottom: 5px;
+}
+.reservation-section label {
+  padding-left: 70px;
+}
+.reservation-section input {
+  /* width: 50%; */
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+}
+.date-input,
+.time-input {
+  width: 63%;
+}
+.guest-input {
+  width: 50%;
 }
 .contacts-section {
   padding-bottom: 20px;
