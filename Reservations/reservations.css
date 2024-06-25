@@ -37,14 +37,7 @@ fieldset {
 .reservation-section {
   padding-bottom: 20px;
 }
-.reservation-section div {
-  padding-bottom: 5px;
-}
-.reservation-section label {
-  padding-left: 70px;
-}
 .reservation-section input {
-  /* width: 50%; */
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
@@ -53,15 +46,39 @@ fieldset {
   border-radius: 8px;
   border: none;
 }
+.reservation-section label {
+  padding-left: 30px;
+}
 .date-input,
 .time-input {
-  width: 63%;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
 }
 .guest-input {
-  width: 50%;
+  width: 10%;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
 }
 .contacts-section {
   padding-bottom: 20px;
+}
+.contacts-section div {
+  padding-bottom: 7px;
+}
+.contacts-section input {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  width: 40%;
+}
+.contacts-section label {
+  padding-left: 30px;
 }
 .special-section {
   padding-bottom: 20px;
