@@ -58,7 +58,7 @@ h4:hover {
 }
 #back-home {
   display: block;
-  margin: auto;
+  float: right;
   left: 0;
   right: 0;
   border: none;
@@ -68,6 +68,22 @@ h4:hover {
   cursor: pointer;
 }
 #back-home:hover {
+  background-color: white;
+  box-shadow: 0 0 10px salmon;
+  transition: background-color 0.8s ease-in-out;
+}
+#reservation {
+  display: block;
+  float: left;
+  left: 0;
+  right: 0;
+  border: none;
+  padding: 21px 100px;
+  background-color: salmon;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#reservation:hover {
   background-color: white;
   box-shadow: 0 0 10px salmon;
   transition: background-color 0.8s ease-in-out;
