@@ -18,15 +18,33 @@
           <legend>Reserve a Table:</legend>
           <!-- <div> -->
           <label class="date-label" for="date">Date:</label>
-          <input class="date-input" type="date" name="date" id="date" />
+          <input
+            class="date-input"
+            type="date"
+            name="date"
+            id="date"
+            required
+          />
           <!-- </div>
           <div> -->
           <label class="time-label" for="time">Time:</label>
-          <input class="time-input" type="time" name="time" id="time" />
+          <input
+            class="time-input"
+            type="time"
+            name="time"
+            id="time"
+            required
+          />
           <!-- </div>
           <div> -->
           <label class="guest-label" for="guests">Number of Guests:</label>
-          <input class="guest-input" type="number" name="guests" id="guests" />
+          <input
+            class="guest-input"
+            type="number"
+            name="guests"
+            id="guests"
+            required
+          />
           <!-- </div> -->
         </fieldset>
       </section>
@@ -35,32 +53,72 @@
           <legend>Contact Information:</legend>
           <div>
             <label for="name">Name:</label>
-            <input type="name" name="name" id="name" />
+            <input class="name" type="name" name="name" id="name" required />
           </div>
           <div>
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" />
+            <input
+              class="email"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
           </div>
           <div>
             <label for="phone-number">Phone Number:</label>
-            <input type="number" name="phone-number" id="phone-number" />
+            <input
+              class="number"
+              type="number"
+              name="phone-number"
+              id="phone-number"
+              required
+            />
           </div>
         </fieldset>
       </section>
       <section class="special-section">
         <fieldset>
           <legend>Special Requests:</legend>
-          <label for="dietary"></label>
-          <input type="text" name="dietary" id="dietary" />
-          <label for="occasion">Special Occasion:</label>
-          <input type="text" name="occasion" id="occasion" />
-          <label for="requests">Additional Requests:</label>
-          <input type="text" name="requests" id="requests" />
+          <div>
+            <label for="dietary">Dietary Restrictions:</label>
+            <textarea
+              name="dietary"
+              class="dietary"
+              type="text"
+              name="dietary"
+              id="dietary"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <label for="occasion">Special Occasion:</label>
+            <textarea
+              name="type"
+              class="type"
+              type="text"
+              name="type"
+              id="type"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <label for="requests">Additional Requests:</label>
+            <textarea
+              name="requests"
+              class="requests"
+              type="text"
+              name="requests"
+              id="requests"
+              required
+            ></textarea>
+          </div>
         </fieldset>
       </section>
       <section class="submit-section">
         <button class="submit">Submit Reservation</button>
       </section>
+
       <section class="contact-section">
         <h2>Contact Us:</h2>
         <p><strong>Phone: </strong>(123) 456-7890</p>
@@ -89,11 +147,9 @@
           ensuring a delightful dining experience at 76GASTROPUB.
         </p>
       </section>
+      <footer>
+        <button class="back-home">Back Home</button>
+      </footer>
     </section>
-    <footer>
-      <p>Facebook</p>
-      <p>Instagram</p>
-      <p>X</p>
-    </footer>
   </body>
 </html>

@@ -68,6 +68,35 @@ fieldset {
   padding-bottom: 7px;
 }
 .contacts-section input {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  border: none;
+}
+.name,
+.email {
+  width: 300px;
+}
+.number {
+  width: 241px;
+}
+.contacts-section label {
+  padding-left: 30px;
+  padding-right: 25px;
+}
+.special-section {
+  padding-bottom: 20px;
+}
+.special-section div {
+  padding-bottom: 7px;
+}
+.special-section label {
+  padding-left: 30px;
+}
+.special-section input {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
@@ -75,13 +104,16 @@ fieldset {
   padding: 5px;
   border-radius: 8px;
   border: none;
-  width: 40%;
 }
-.contacts-section label {
-  padding-left: 30px;
-}
-.special-section {
-  padding-bottom: 20px;
+textarea {
+  width: 85%;
+  height: 50px;
+  display: block;
+  margin-left: 60px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
 }
 .submit {
   display: block;
@@ -91,6 +123,34 @@ fieldset {
   border: none;
 }
 .submit:hover {
+  box-shadow: 0 0 20px;
+  cursor: pointer;
+}
+.contact-section p {
+  padding-left: 40px;
+  font-size: 18px;
+}
+.location-section h5 {
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.operation-section p {
+  padding-left: 40px;
+}
+.note-section p {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+footer button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 50px;
+  border-radius: 30px;
+  border: none;
+}
+footer button:hover {
   box-shadow: 0 0 20px;
   cursor: pointer;
 }
