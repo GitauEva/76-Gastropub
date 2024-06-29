@@ -30,18 +30,18 @@ document
     // alert("Reservation Submitted Successfully!");
     console.log("Reservation Data:", reservationData);
 
-    // const guestName = document.getElementById("name");
-    // const reservationconfirmationTitle = document.querySelector(
-    //   ".reservation-confirmation-title"
-    // );
-    // reservationconfirmationTitle.innerHTML = `Hello ${guestName}!! Your reservation has been confirmed with the following details ${reservationData}`;
+    const guestName = document.getElementById("name").value;
+    const reservationconfirmationTitle = document.querySelector(
+      ".reservation-confirmation-title"
+    );
+    reservationconfirmationTitle.innerHTML = `Hello ${guestName}!! Your reservation has been confirmed with the following details ${reservationData.Date}, ${reservationData.Dietary}`;
 
-    // const mainSection = document.querySelector(".main-section");
-    // const reservationSection = document.querySelector(
-    //   ".reservation-confirmation"
-    // );
+    const mainSection = document.querySelector(".main-section");
+    const reservationSection = document.querySelector(
+      ".reservation-confirmation"
+    );
 
-    // mainSection.classList.add("hidden-class");
-    // reservationSection.classList.remove("hidden-class");
-    // document.getElementById("reservationForm").reset();
+    mainSection.classList.add("hidden-class");
+    reservationSection.classList.remove("hidden-class");
+    document.getElementById("reservationForm").reset();
   });
