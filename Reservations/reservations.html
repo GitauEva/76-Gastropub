@@ -13,112 +13,117 @@
         <h2>Welcome to 76GASTROPUB Reservations</h2>
         <h3>Make Your Reservation Today!</h3>
       </section>
-      <section class="reservation-section">
-        <fieldset>
-          <legend>Reserve a Table:</legend>
-          <!-- <div> -->
-          <label class="date-label" for="date">Date:</label>
-          <input
-            class="date-input"
-            type="date"
-            name="date"
-            id="date"
-            required
-          />
-          <!-- </div>
-          <div> -->
-          <label class="time-label" for="time">Time:</label>
-          <input
-            class="time-input"
-            type="time"
-            name="time"
-            id="time"
-            required
-          />
-          <!-- </div>
-          <div> -->
-          <label class="guest-label" for="guests">Number of Guests:</label>
-          <input
-            class="guest-input"
-            type="number"
-            name="guests"
-            id="guests"
-            required
-          />
-          <!-- </div> -->
-        </fieldset>
-      </section>
-      <section class="contacts-section">
-        <fieldset>
-          <legend>Contact Information:</legend>
-          <div>
-            <label for="name">Name:</label>
-            <input class="name" type="name" name="name" id="name" required />
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input
-              class="email"
-              type="email"
-              name="email"
-              id="email"
-              required
-            />
-          </div>
-          <div>
-            <label for="phone-number">Phone Number:</label>
-            <input
-              class="number"
-              type="number"
-              name="phone-number"
-              id="phone-number"
-              required
-            />
-          </div>
-        </fieldset>
-      </section>
-      <section class="special-section">
-        <fieldset>
-          <legend>Special Requests:</legend>
-          <div>
-            <label for="dietary">Dietary Restrictions:</label>
-            <textarea
-              name="dietary"
-              class="dietary"
-              type="text"
-              name="dietary"
-              id="dietary"
-              required
-            ></textarea>
-          </div>
-          <div>
-            <label for="occasion">Special Occasion:</label>
-            <textarea
-              name="type"
-              class="type"
-              type="text"
-              name="type"
-              id="type"
-              required
-            ></textarea>
-          </div>
-          <div>
-            <label for="requests">Additional Requests:</label>
-            <textarea
-              name="requests"
-              class="requests"
-              type="text"
-              name="requests"
-              id="requests"
-              required
-            ></textarea>
-          </div>
-        </fieldset>
-      </section>
-      <section class="submit-section">
-        <button class="submit">Submit Reservation</button>
-      </section>
+      <form id="reservationForm" action="/Submit/index.html">
+        <section class="reservation-section">
+          <fieldset>
+            <legend>Reserve a Table:</legend>
 
+            <label class="date-label" for="date">Date:</label>
+            <input
+              class="date-input"
+              type="date"
+              name="date"
+              id="date"
+              required
+            />
+
+            <label class="time-label" for="time">Time:</label>
+            <input
+              class="time-input"
+              type="time"
+              name="time"
+              id="time"
+              required
+            />
+
+            <label class="guest-label" for="guests">Number of Guests:</label>
+            <input
+              class="guest-input"
+              type="number"
+              name="guests"
+              id="guests"
+              required
+            />
+          </fieldset>
+        </section>
+        <section class="contacts-section">
+          <fieldset>
+            <legend>Contact Information:</legend>
+            <div>
+              <label for="name">Name:</label>
+              <input class="name" type="name" name="name" id="name" required />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input
+                class="email"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+            <div>
+              <label for="phone-number">Phone Number:</label>
+              <input
+                class="number"
+                type="number"
+                name="phone-number"
+                id="phone-number"
+                required
+              />
+            </div>
+          </fieldset>
+        </section>
+        <section class="special-section">
+          <fieldset>
+            <legend>Special Requests:</legend>
+            <div>
+              <label for="dietary">Dietary Restrictions:</label>
+              <textarea
+                name="dietary"
+                class="dietary"
+                type="text"
+                name="dietary"
+                id="dietary"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <label for="occasion">Special Occasion:</label>
+              <textarea
+                name="type"
+                class="type"
+                type="text"
+                name="type"
+                id="type"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <label for="requests">Additional Requests:</label>
+              <textarea
+                name="requests"
+                class="requests"
+                type="text"
+                name="requests"
+                id="requests"
+                required
+              ></textarea>
+            </div>
+          </fieldset>
+        </section>
+        <section class="submit-section">
+          <!-- <button class="submit">Submit Reservation</button> -->
+          <input
+            type="submit"
+            name="submit"
+            id="submit"
+            value="Submit Reservation"
+            class="submit"
+          />
+        </section>
+      </form>
       <section class="contact-section">
         <h2>Contact Us:</h2>
         <p><strong>Phone: </strong>(123) 456-7890</p>
@@ -150,6 +155,11 @@
       <footer>
         <button class="back-home">Back Home</button>
       </footer>
+    </section>
+    <section class="reservation-confirmation hidden-class">
+      <h2>Reservation Details</h2>
+      <h1 class="reservation-confirmation-title">Hello</h1>
+      <button class="back-home">Back Home</button>
     </section>
   </body>
 </html>

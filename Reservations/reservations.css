@@ -1,5 +1,6 @@
 body {
-  background: url(http://192.168.1.6:5500/images/footer.png);
+  /* background: url(http://192.168.1.6:5500/images/footer.png); */
+  background: url(http://192.168.1.7:5500/images/main%20page.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -153,4 +154,36 @@ footer button {
 footer button:hover {
   box-shadow: 0 0 20px;
   cursor: pointer;
+}
+.back-home {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 50px;
+  border-radius: 30px;
+  border: none;
+}
+.back-home:hover {
+  box-shadow: 0 0 20px;
+  cursor: pointer;
+}
+.hidden-class {
+  display: none;
+}
+.reservation-confirmation {
+  width: 50%;
+  height: 70vh;
+  background-color: rgba(255, 255, 255, 0.37);
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 90px;
+}
+.reservation-confirmation h1 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.reservation-confirmation h2 {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
 }
