@@ -1,6 +1,5 @@
 body {
-  /* background: url(http://192.168.1.6:5500/images/footer.png); */
-  background: url(http://192.168.1.7:5500/images/main%20page.png);
+  background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/436/original/footer.png?1720025270);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -162,6 +161,10 @@ footer button:hover {
   border-radius: 30px;
   border: none;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .back-home:hover {
   box-shadow: 0 0 20px;
   cursor: pointer;
@@ -171,7 +174,7 @@ footer button:hover {
 }
 .reservation-confirmation {
   width: 50%;
-  height: 70vh;
+  height: 80vh;
   background-color: rgba(255, 255, 255, 0.37);
   margin: auto;
   border-radius: 30px;
@@ -186,4 +189,10 @@ footer button:hover {
   color: white;
   text-align: center;
   padding-top: 15px;
+}
+.reservation-confirmation p {
+  line-height: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
 }

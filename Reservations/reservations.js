@@ -1,13 +1,7 @@
-//Declaring variables
 let backHome = document.querySelector(".back-home");
-
-//Back Home Functionalities
-//Function that gives the button direction
-function backHomeFunction() {
+document.querySelector(".back-home").addEventListener("click", function () {
   window.location.href = "../../homepage/homepage.html";
-}
-//Back Home Event Listener
-backHome.addEventListener("click", backHomeFunction);
+});
 
 document
   .getElementById("reservationForm")
@@ -27,14 +21,53 @@ document
     };
     localStorage.setItem("reservation", JSON.stringify(reservationData));
 
-    // alert("Reservation Submitted Successfully!");
     console.log("Reservation Data:", reservationData);
 
+    //getting the user name as well as the display location
     const guestName = document.getElementById("name").value;
-    const reservationconfirmationTitle = document.querySelector(
+    const reservationConfirmationTitle = document.querySelector(
       ".reservation-confirmation-title"
     );
-    reservationconfirmationTitle.innerHTML = `Hello ${guestName}!! Your reservation has been confirmed with the following details ${reservationData.Date}, ${reservationData.Dietary}`;
+
+    //getting contact info
+    const emailAddress = document.getElementById("email").value;
+    const reservationEmail = document.querySelector(".reservation-email");
+    const phoneNumber = document.getElementById("phone-number").value;
+    const reservationPhone = document.querySelector(".reservation-phone");
+
+    //getting the date
+    const date = document.getElementById("date").value;
+    let reservationDate = document.querySelector(".reservation-date");
+
+    //getting time
+    const time = document.getElementById("time").value;
+    let reservationTime = document.querySelector(".reservation-time");
+
+    //getting number of guests
+    const guests = document.getElementById("guests").value;
+    let reservationGuests = document.querySelector(".reservation-guests");
+
+    //getting and display dietary restriction
+    const dietaryRestriction = document.getElementById("dietary").value;
+    let reservationDietary = document.querySelector(".reservation-dietary");
+
+    //special occasion
+    const specialOccasion = document.getElementById("type").value;
+    let reservationType = document.querySelector(".reservation-type");
+
+    //additional requests
+    const additionalRequests = document.getElementById("requests").value;
+    let reservationRequests = document.querySelector(".reservation-requests");
+
+    reservationConfirmationTitle.innerHTML = `Hello ${guestName}!! Your reservation has been confirmed with the following details:`;
+    reservationEmail.innerHTML = `Email: ${emailAddress}`;
+    reservationPhone.innerHTML = `Phone Number: ${phoneNumber}`;
+    reservationDate.innerHTML = `Date: ${date}`;
+    reservationTime.innerHTML = `Time: ${time}`;
+    reservationGuests.innerHTML = `Number of Guests: ${guests}`;
+    reservationDietary.innerHTML = `Dietary Restrictions: ${dietaryRestriction}`;
+    reservationType.innerHTML = `Special Occasions: ${specialOccasion}`;
+    reservationRequests.innerHTML = `Additional Requests: ${additionalRequests}`;
 
     const mainSection = document.querySelector(".main-section");
     const reservationSection = document.querySelector(
