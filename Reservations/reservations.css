@@ -196,3 +196,13 @@ a {
   font-size: 20px;
   text-align: center;
 }
+#dateError {
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px 50px;
+  color: red;
+}
+.dateValidation {
+  text-align: center;
+  padding: 5px 0;
+}

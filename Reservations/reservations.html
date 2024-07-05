@@ -12,6 +12,15 @@
       <section class="top-section">
         <h2>Welcome to 76GASTROPUB Reservations</h2>
         <h3>Make Your Reservation Today!</h3>
+        <p class="dateValidation">
+          <em>
+            To ensure we provide you with the best experience, please note that
+            all reservations must be made at least 2 days in advance. This
+            allows us to prepare and accommodate your requests appropriately.
+            Thank you for your understanding and cooperation. We look forward to
+            serving you!
+          </em>
+        </p>
       </section>
       <form id="reservationForm" action="/Submit/index.html">
         <section class="reservation-section">
@@ -26,6 +35,9 @@
               id="date"
               required
             />
+            <span id="dateError" style="display: none"
+              >Please choose a valid date.</span
+            >
 
             <label class="time-label" for="time">Time:</label>
             <input
