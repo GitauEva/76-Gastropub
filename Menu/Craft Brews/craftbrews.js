@@ -2,7 +2,7 @@ const backHomeBtn = document.getElementById("back-home");
 const reservationBtn = document.getElementById("reservations");
 
 function navigateHome() {
-  window.location.href = "../../homepage/homepage.html";
+  window.location.href = "../../homepage/index.html";
 }
 
 backHomeBtn.addEventListener("click", navigateHome);
